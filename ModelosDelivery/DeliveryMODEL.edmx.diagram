@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9db23810b20048f885c3f575b8babc23" Name="Diagram1">
+        <EntityTypeShape EntityType="DB_DELIVERYModel.CAB_FACTURA" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_DELIVERYModel.CLIENTE" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_DELIVERYModel.DETALLE_FACTURA" Width="1.5" PointX="5.25" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_DELIVERYModel.ESTADO_ENVIO" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_DELIVERYModel.ESTADO_PAGO" Width="1.5" PointX="0.75" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_DELIVERYModel.PRODUCTO" Width="1.5" PointX="3" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_DELIVERYModel.PRODUCTO_CATEGORIA" Width="1.5" PointX="0.75" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_DELIVERYModel.sysdiagrams" Width="1.5" PointX="2.75" PointY="4.75" IsExpanded="true" />
+        <AssociationConnector Association="DB_DELIVERYModel.FK_CAB_FACTURA_CLIENTE" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_DELIVERYModel.FK_CAB_FACTURA_ESTADO_ENVIO" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_DELIVERYModel.FK_CAB_FACTURA_ESTADO_PAGO" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_DELIVERYModel.FK_DETALLE_FACTURA_CAB_FACTURA" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_DELIVERYModel.FK_DETALLE_FACTURA_PRODUCTO" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_DELIVERYModel.FK_PRODUCTO_PRODUCTO_CATEGORIA" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
