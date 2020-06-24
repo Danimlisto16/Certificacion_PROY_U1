@@ -99,7 +99,6 @@
     </EntityDeploy>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.Config" />
     <None Include="DeliveryMODEL.edmx.diagram">
       <DependentUpon>DeliveryMODEL.edmx</DependentUpon>
     </None>
